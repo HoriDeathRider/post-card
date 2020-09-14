@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.image__container{
+   font-size: 0;
+}
+
+.post__container{
+    background-color: #fff;
+    width: 360px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 20px;
+}
