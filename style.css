@@ -14,7 +14,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:50%;
+    transform: translate(0,-50%);
 }
 
 .image__container{
@@ -27,6 +32,17 @@ body{
     padding: 20px;
 }
 
-h1{
-    font-size: 20px;
+.post__date{
+    margin-bottom: 15px;
+
+}
+
+.post__theme{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.post__author{
+    font-size: 12px;
+    font-weight: 700;
 }
